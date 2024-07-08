@@ -1,0 +1,344 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/* Header styles */
+header {
+    background-color: black;
+    color: rgb(255, 200, 20);
+    padding:  0;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000; /* Ensure header stays on top */
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 200, 20);
+    font-size: larger;
+    padding: 5px;
+}
+
+/* Navigation styles */
+.nav {
+    width: 100%;
+    margin-left: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    font-family: "Roboto Mono", monospace;
+    border-bottom: 2px solid rgb(255, 200, 20);
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav h1 {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Home section styles */
+#Home {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+#text {
+    background-color: black;
+    height: 90vh;
+    width: 80vb;
+    color: white;
+}
+
+#intro {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#intro p {
+    font-family: "Roboto Mono", monospace;
+}
+
+#intro h1 {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.btn-resume {
+    font-family: "Overpass", sans-serif;
+    border: 10px black;
+    border-radius: 15px;
+    height: 35px;
+    width: 90px;
+    font-size: medium;
+    color: black;
+    background-color: rgb(255, 200, 20);
+    margin: 3px;
+}
+
+.btn-resume:hover {
+    border: 2px solid rgb(255, 200, 20);
+    color: rgb(255, 200, 20);
+    background-color: black;
+}
+
+.btn-work {
+    border: 2px solid rgb(255, 200, 20);
+    border-radius: 15px;
+    height: 35px;
+    width: 90px;
+    font-size: medium;
+    color: rgb(255, 200, 20);
+    background-color: black;
+    margin: 3px;
+}
+
+.btn-work:hover {
+    color: black;
+    background-color: rgb(255, 200, 20);
+}
+
+#image {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+/* About section styles */
+#about {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#abu-content {
+    background-color: black;
+    width: 60%;
+    height: 600px;
+    margin-top: 90px;
+}
+
+#abu-content #content {
+    width: 50%;
+    font-family: "Roboto Mono", monospace;
+}
+b{
+    color: rgb(255, 200, 20);;
+}
+
+/* Project section styles */
+#Projects {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#project-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: 90px;
+}
+.card {
+    background-color: black;
+    border: 2px solid rgb(255, 200, 20);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 310px;
+    
+}
+  
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.card h1 {
+    color: rgb(255, 200, 20);
+    margin-top: 10px;
+    font-size: 24px;
+}
+  
+.card p {
+    color: rgb(255, 200, 20);
+    margin-top: 10px;
+}
+.card .p{
+    height: 150px;
+    width: 200px;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: black;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: rgb(255, 200, 20);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(255, 200, 20);
+}
+
+#stdbtn {
+    font-family: "Overpass", sans-serif;
+    border: 10px black;
+    border-radius: 15px;
+    height: 35px;
+    width: 90px;
+    font-size: medium;
+    color: black;
+    background-color: rgb(255, 200, 20);
+    margin: 3px;
+}
+
+/* Footer styles */
+footer {
+    background: rgb(255, 200, 20);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 790px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul li {
+        display: inline;
+        margin: 10px 0;
+    }
+
+    #Home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #text {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0;
+
+    }
+
+    #intro {
+        margin-top: 100px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #intro h1 {
+        font-size: 40px;
+    }
+
+    .btn-resume,
+    .btn-work {
+        width: 150px;
+    }
+
+    #image {
+        display: none;
+    }
+
+    #about,
+    #Projects,
+    #contact {
+        padding: 20px;
+    }
+
+    #abu-content,
+    #project-content {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #abu-content #content {
+        width: 100%;
+    }
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    max-width: 130px;
+    margin-left: 245px;
+    border: 2px solid rgb(255, 200, 20); 
+}
+
+.nav li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    margin: 5px 0;
+    /* border: 2px solid rgb(255, 200, 20); */
+}

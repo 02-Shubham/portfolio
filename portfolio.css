@@ -1,0 +1,288 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+header {
+    background-color:black;
+    color: rgb(255, 200, 20);
+    padding: 20px 0;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 200, 20);
+    font-size: larger;
+    padding: 5px;
+}
+.nav {
+    width: 100%;
+    margin-left: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    font-family: "Roboto Mono", monospace;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav h1{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0px;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+#Home{
+    height: 90vh;
+    display: flex;
+    width: 80;
+    justify-content:center;
+    background-color: #000000;
+}
+.textchanging{
+    color: white;
+}
+#text{
+    background-color: black;
+    height:90vh;
+    width: 80vb;
+    color: white;
+}
+#intro{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+#intro p{
+    font-family: "Roboto Mono", monospace;
+}
+#intro h1{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size:50px;
+}
+.btn-resume{
+    font-family: "Overpass", sans-serif;
+    border: 10px black;
+    border-radius: 15px;
+    height: 35px;
+    width: 90px;
+    font-size: medium;
+    color: black;
+    background-color: rgb(255, 200, 20);
+    margin: 3px;
+} 
+.btn-resume:hover{
+    border: 2px solid rgb(255, 200, 20);
+    color:  rgb(255, 200, 20);
+    background-color:black;
+}
+.btn-work{
+    border: 2px solid rgb(255, 200, 20);
+    border-radius: 15px;
+    height: 35px;
+    width: 90px;
+    font-size: medium;
+    color:  rgb(255, 200, 20);
+    background-color:black;
+    margin: 3px;
+}
+.btn-work:hover{
+    color: black;
+    background-color: rgb(255, 200, 20);
+
+}
+#image{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#about{
+    background-color: black;
+    height: 700px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#abu-content{
+    background-color: black;
+    width: 60%;
+    height: 600px;
+    margin-top: 90px;
+    
+}
+#abu-content #content{
+    width: 50%;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+b{
+    color: rgb(255, 200, 20);;
+}
+#Projects{
+    background-color: black;
+    height: 850px;
+    justify-content: center;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.card {
+    background-color: black;
+    border: 2px solid rgb(255, 200, 20);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 310px;
+    
+}
+  
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.card h1 {
+    color: rgb(255, 200, 20);
+    margin-top: 10px;
+    font-size: 24px;
+}
+  
+.card p {
+    color: rgb(255, 200, 20);
+    margin-top: 10px;
+}
+.card .p{
+    height: 150px;
+    width: 200px;
+}
+#project-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: 90px;
+
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 200, 20);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.button:hover {
+    background-color: rgb(255, 196, 0)
+}
+#contact{
+    background-color: black;
+
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+    
+footer {
+    background: rgb(255, 200, 20);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(f, f, f, 0.1);
+    
+}
+  
+form {
+    display: grid;
+    grid-gap: 20px;
+}
+  
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.input-group {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+  
+label {
+    font-weight: bold;
+}
+  
+input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+   font-size: 16px;
+}
+  
+.button {
+    padding: 10px 20px;
+    background-color: rgb(255, 200, 20);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: rgb(255, 200, 20);
+}
+.stdbtn{
+    font-family: "Overpass", sans-serif;
+    border: 10px black;
+    border-radius: 15px;
+    height: 35px;
+    width: 90px;
+    font-size: medium;
+    color: black;
+    background-color: rgb(255, 200, 20);
+    margin: 3px;
+}
+

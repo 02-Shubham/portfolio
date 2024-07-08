@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@800&family=Roboto+Mono:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+             <h1>Shubham Sahu</h1>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Projects">Projects<i class="fa fa-caret-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#Projects">1st year</a></li>
+                            <li><a href="#Projects">2nd year</a></li>
+                            <li><a href="#Projects">3rd year</a></li>
+                            <li><a href="#Projects">4rd year</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="Home">
+        <div id="text">
+            <div id="intro">
+             <p id="textchanging">Hello!!</p>
+             <h1>I'm <b>Shubham<br>Sahu</b></h1>
+             <h2 id="role">Student</h2>
+             <button  class="btn-resume">Resume</button>
+             <a href="#Projects"><button class="btn-work">Works</button></a>
+            </div>
+        </div>
+        <div id="image">
+            <img src="Shubham Profile photo.jpg">
+        </div>
+    </div>
+    <div id="about">
+        <div id="abu-content">
+            <h1><b>About Me.</b></h1>
+            <br><br><br>
+            <h1>Who Am I?</h1>
+            <div id="content">
+             <p> 
+              I am Shubham Sahu,a student who is learning Web Development. 
+              I am a passionate <b>Fullstack developer, Cloud Comupting,</b> with expertise in<b> HTML, CSS, and JavaScript.</b>
+              <br> I love creating responsive and interactive web experiences.
+              <br>I am learning <b>Node.js, SQL, React.</b>
+             </p>
+             <p>To know more about me..</p>
+             <a href="https://www.linkedin.com/in/shubham-sahu-2548b4291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button class="btn-resume">Linkedin</button></a>
+            </div>
+        </div>
+    </div>
+    <div id="Projects">
+        <p>Projects </p>
+        <div id="project-content">
+            <div class="card">
+                <img src="favicon.ico" alt="Netflix clone">
+                <h1>Netflix Clone</h1>
+                <div class="p">
+                 <p>I tried to apply my CSS Skill to make this project.</p>
+                </div>
+                <a href="#" class="button">View Project</a>
+            </div>  
+            <div class="card">
+                <img src="calculator.jpg" alt="calculator">
+                <h1>Calculator</h1>
+                <div class="p">
+                 <p>I tried to apply my CSS Skill to make this project.</p>
+                </div>
+                <a href="#" class="button">View Project</a>
+            </div> 
+            <div class="card">
+                <img src="clock.jpg" alt="Clock">
+                <h1>Analog Clock</h1>
+                <div class="p">
+                 <p>I have Made this Analog clock by using Set interval Function of JavaScript  </p>
+                </div>
+                <a href="#" class="button">View Project</a>
+            </div>
+            <div class="card">
+                <img src="#" alt="Project Picture">
+                <h1>Title</h1>
+                <div class="p">
+                 <p>Description of Project </p>
+                </div>
+                <a href="#" class="button">View Project</a>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <h1><b>Contact Me</b></h1>
+            <form>
+                <h2>Contact Me</h2>
+                <div class="input-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                  <label for="subject">Subject:</label>
+                  <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="input-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+                <button id="stdbtn"type="submit">Submit</button>
+              </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 Shubham Sahu - Frontend Developer</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
